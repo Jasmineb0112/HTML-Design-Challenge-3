@@ -3,12 +3,15 @@ body {
     font-size: 1.5em;
 }
 
-.nav bar {
-    background-color: beige;
-    color: green;
-}
 ul {
     list-style: none;
-    display: inline-block;
+    background-color: #cccccc;
+    padding: 10px;
+    top: none;
 }
 
+ul > li {
+    color: white;
+    display: inline-block;
+    padding-left: 10px;
+} 
