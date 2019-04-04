@@ -1,3 +1,14 @@
 body {
-    font-family: cursive;
+    font-family:monospace;
+    font-size: 1.5em;
 }
+
+.nav bar {
+    background-color: beige;
+    color: green;
+}
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
