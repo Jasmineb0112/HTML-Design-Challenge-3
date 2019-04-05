@@ -6,9 +6,24 @@ body {
 img {
     max-width: 100%;
 }
+
+.nav bar {
+    text-decoration: none;
+    
+}
+a {
+        text-decoration: none;
+        color: white;
+}
+a:hover {
+    color: black;
+    text-decoration: overline underline;
+}
 ul {
     list-style: none;
     background-color: #cccccc;
+    margin: none;
+    padding-top: none;
     padding: 10px;
     top: none;
 }
@@ -20,6 +35,8 @@ ul > li {
     font-family: 'Advent Pro', sans-serif;
     font-size: 1.2em;
     padding-left: 20px;
+        text-decoration: none;
+
 } 
 
 ul>li:hover {
