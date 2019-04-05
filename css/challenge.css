@@ -3,8 +3,6 @@ body {
     font-size: 1.5em;
     
 }
-
-
 img {
     max-width: 100%;
 }
@@ -19,8 +17,9 @@ ul > li {
     color: white;
     display: inline-block;
     padding-left: 10px;
-        font-family: 'Advent Pro', sans-serif;
-
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.2em;
+    padding-left: 20px;
 } 
 
 ul>li:hover {
@@ -37,9 +36,12 @@ ul>li:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.
+.whole {
+    max-width: 100%;
+}
 .half {
-    width: 30%;
-    flex: wrap;
+    width: 40%;
+    flex: flex-start;
+    justify-content: space-between;
     
 }
