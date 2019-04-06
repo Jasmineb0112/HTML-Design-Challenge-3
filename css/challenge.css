@@ -60,5 +60,11 @@ ul>li:hover {
     width: 40%;
     flex: flex-start;
     justify-content: space-between;
-    
 }
+.third {
+    flex: wrap;
+     justify-content: space-around;
+}
+
+
+
